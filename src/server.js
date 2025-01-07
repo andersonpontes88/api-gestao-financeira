@@ -15,10 +15,4 @@ app.get("/", (req, res) => res.json({ message: "Hello World!" }));
 app.use("/api/auth", authRoutes);
 app.use("/api/transactions", transactionRoutes);
 
-// Inicializa o servidor
-const PORT = process.env.PORT || 3000; // Vercel define automaticamente a variável de ambiente PORT
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
-
-export default app;
+export default app; // Exporta o app para ser usado em outros lugares
