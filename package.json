@@ -1,11 +1,11 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "build": "babel src --out-dir dist",
+    "start": "node src/server.js",
     "dev": "nodemon --exec babel-node src/index.js",
     "test": "jest --detectOpenHandles --forceExit"
   },
