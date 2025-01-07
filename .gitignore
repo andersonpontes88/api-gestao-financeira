@@ -1,0 +1,4 @@
+node_modules
+# Mantenha as variáveis ​​de ambiente fora do controle de versão
+.env
+tests
