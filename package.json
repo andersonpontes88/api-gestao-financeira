@@ -1,8 +1,11 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "src/server.js",
   "type": "module",
+  "engines": {
+    "node": "18.x"
+  },
   "license": "MIT",
   "scripts": {
     "start": "node src/server.js",
